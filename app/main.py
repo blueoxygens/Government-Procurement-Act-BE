@@ -3,7 +3,11 @@ from fastapi import FastAPI
 from app.models.chat import ChatRequest, ChatResponse
 from app.core.rag_chain import rag_chain
 
-app = FastAPI()
+app = FastAPI(
+    title="법률 RAG 챗봇 API",
+    description="한국 조달 법률 문서 기반 RAG 질의응답 챗봇",
+    version="0.1.0",
+)
 
 
 @app.get("/health")
