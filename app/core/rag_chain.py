@@ -44,7 +44,7 @@ def build_rag_chain():
     prompt = ChatPromptTemplate.from_messages([
         (
             "system",
-            "당신은 한국 법률 전문가입니다. "
+            "당신은 한국 조달 법률 전문가입니다. "
             "아래 제공된 법률 문서 내용을 참고하여 사용자의 질문에 정확하게 답변해주세요. "
             "문서에 없는 내용은 답변하지 마세요.\n\n"
             "[참고 문서]\n{context}",
