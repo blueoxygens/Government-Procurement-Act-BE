@@ -17,3 +17,10 @@ typing_extensions==4.15.0
 uvicorn==0.40.0
 watchfiles==1.1.1
 websockets==16.0
+langchain
+langchain-openai
+langchain-chroma
+langchain-community
+langchain-classic
+chromadb
+docx2txt
